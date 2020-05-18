@@ -6,7 +6,7 @@ class Solution {
             return head;
         
         ListNode start = head;
-        int count = 1;
+        //int count = 1;
         ListNode preEnd = start;
         
         while (start.next.next != null) {
